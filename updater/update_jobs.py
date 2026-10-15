@@ -127,6 +127,7 @@ class Gemini:
         else:
             self.models = self.list_models()
         self.idx = 0
+        self.sidx = 0  # separate model pointer for Google Search mode
         self.search_ok = True
         self.search_fail = 0
         log("Gemini models to try:", ", ".join(self.models[:6]))
@@ -181,29 +182,49 @@ class Gemini:
             body["generationConfig"]["responseMimeType"] = "application/json"
         waits = 0
         while True:
-            r = requests.post(f"{self.BASE}/models/{self.model}:generateContent",
+            mdl = self.models[self.sidx] if use_search else self.model
+            r = requests.post(f"{self.BASE}/models/{mdl}:generateContent",
                               headers={"x-goog-api-key": self.key}, json=body, timeout=120)
             if r.status_code == 200:
                 break
             msg = r.text[:600]
             if r.status_code == 429:
-                low = msg.lower()
-                log("  Gemini 429:", " ".join(msg.split())[:220])
-                m = re.search(r'"retryDelay":\s*"(\d+)', msg)
-                delay = int(m.group(1)) + 2 if m else 30
-                if "limit: 0" in low or "perday" in low or "per day" in low or delay > 90:
-                    # this model has no (or no more) free quota today -> try another model
-                    if use_search:
-                        self.search_fail += 1
-                        if self.search_fail >= 2:
-                            self.search_ok = False
-                            log("  Google Search mode has no free quota - turned off for this run")
-                        raise AIError("search quota")
-                    if self.next_model("no free quota"):
+                full = r.text
+                ids, vals, delay = [], [], 30
+                try:
+                    for d in r.json().get("error", {}).get("details", []):
+                        for v in d.get("violations", []):
+                            ids.append(str(v.get("quotaId", "")))
+                            vals.append(str(v.get("quotaValue", "")))
+                        if "retryDelay" in d:
+                            delay = int(re.sub(r"\D", "", d["retryDelay"]) or 30) + 2
+                except Exception:
+                    pass
+                log(f"  Gemini 429 [{mdl}{' +search' if use_search else ''}] quota={ids} value={vals} retry={delay}s")
+                low = full.lower()
+                no_free = ("limit: 0" in low or '"quotavalue": "0"' in low.replace("'", '"')
+                           or any(v == "0" for v in vals) or any("perday" in i.lower() for i in ids)
+                           or (not ids and "check your plan and billing" in low))
+                if use_search:
+                    if no_free and self.sidx + 1 < len(self.models):
+                        self.sidx += 1
+                        log(f"  search mode -> trying model {self.models[self.sidx]}")
                         continue
-                    raise AIError("Gemini daily free quota finished: " + msg[:200])
+                    self.search_fail += 1
+                    if self.search_fail >= 2:
+                        self.search_ok = False
+                        log("  Google Search mode not available on free quota - turned off for this run")
+                    raise AIError("search quota")
+                if no_free or delay > 90:
+                    if self.next_model("no free quota for this model"):
+                        waits = 0
+                        continue
+                    raise AIError("Gemini free quota finished for all models today")
                 if waits >= 2:
-                    raise AIError("Gemini busy: " + msg[:200])
+                    if self.next_model("still busy"):
+                        waits = 0
+                        continue
+                    raise AIError("Gemini busy")
                 waits += 1
                 log(f"  Gemini per-minute limit, waiting {delay}s")
                 time.sleep(min(delay, 70))
