@@ -1,1 +1,38 @@
+name: Daily Job Update
 
+on:
+  schedule:
+    - cron: "15 0 * * *"
+    - cron: "15 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-job-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Find new government jobs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python updater/update_jobs.py
+      - name: Save jobs.json
+        run: |
+          git config user.name "WebSiteMaster Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/jobs.json data/seen.json
+          git diff --cached --quiet || git commit -m "Auto job update $(date -u +%Y-%m-%d)"
+          git push
