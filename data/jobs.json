@@ -1,9 +1,37 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-15 20:30",
+ "updated": "2026-10-15 22:00",
  "count": 4,
  "vacs": [
+  {
+   "cat": "state",
+   "siteId": "s8",
+   "org": "Kerala PSC",
+   "post": "Cat. 151–161/2026 – Draftsman Gr-II, Forest Boat Driver, HSST, Police Constable Driver etc.",
+   "postTa": "கேரளா PSC – வரைவாளர், படகு ஓட்டுநர், HSST, காவல் ஓட்டுநர்",
+   "total": "Various",
+   "start": "2026-09-30",
+   "last": "2026-11-04",
+   "qual": "Varies by post (SSLC / Plus Two / PG + B.Ed + SET)",
+   "age": "18–50 varies by post",
+   "fee": "No fee",
+   "docs": [
+    "Passport size photo (JPG) / புகைப்படம்",
+    "Signature (JPG) / கையொப்பம்",
+    "SSLC / HSC mark sheet / மதிப்பெண் சான்று",
+    "Degree certificate (if needed) / பட்டச் சான்று",
+    "Community certificate / சாதிச் சான்று",
+    "Aadhaar card / ஆதார் அட்டை",
+    "Mobile number & Email ID / மொபைல் & மின்னஞ்சல்"
+   ],
+   "notifyUrl": "https://www.keralapsc.gov.in",
+   "applyUrl": "https://thulasi.psc.kerala.gov.in",
+   "note": "Some posts reserved for SC/ST or KSFE staff only.",
+   "source": "seed",
+   "added": "2026-10-15",
+   "id": "a690bcb3e18"
+  },
   {
    "cat": "tn",
    "siteId": "s1",
@@ -93,35 +121,89 @@
    "source": "seed",
    "added": "2026-10-15",
    "id": "a8c9f47b79e"
-  },
-  {
-   "cat": "state",
-   "siteId": "s8",
-   "org": "Kerala PSC",
-   "post": "Cat. 151–161/2026 – Draftsman Gr-II, Forest Boat Driver, HSST, Police Constable Driver etc.",
-   "postTa": "கேரளா PSC – வரைவாளர், படகு ஓட்டுநர், HSST, காவல் ஓட்டுநர்",
-   "total": "Various",
-   "start": "2026-09-30",
-   "last": "2026-11-04",
-   "qual": "Varies by post (SSLC / Plus Two / PG + B.Ed + SET)",
-   "age": "18–50 varies by post",
-   "fee": "No fee",
-   "docs": [
-    "Passport size photo (JPG) / புகைப்படம்",
-    "Signature (JPG) / கையொப்பம்",
-    "SSLC / HSC mark sheet / மதிப்பெண் சான்று",
-    "Degree certificate (if needed) / பட்டச் சான்று",
-    "Community certificate / சாதிச் சான்று",
-    "Aadhaar card / ஆதார் அட்டை",
-    "Mobile number & Email ID / மொபைல் & மின்னஞ்சல்"
-   ],
-   "notifyUrl": "https://www.keralapsc.gov.in",
-   "applyUrl": "https://thulasi.psc.kerala.gov.in",
-   "note": "Some posts reserved for SC/ST or KSFE staff only.",
-   "source": "seed",
-   "added": "2026-10-15",
-   "id": "a690bcb3e18"
   }
  ],
- "report": []
+ "report": [
+  {
+   "source": "TNPSC",
+   "status": "page not readable (ConnectTimeout)",
+   "added": 0
+  },
+  {
+   "source": "TNUSRB",
+   "status": "page not readable (ConnectTimeout)",
+   "added": 0
+  },
+  {
+   "source": "TN TRB",
+   "status": "page not readable (ConnectTimeout)",
+   "added": 0
+  },
+  {
+   "source": "TN MRB",
+   "status": "page not readable (ConnectTimeout)",
+   "added": 0
+  },
+  {
+   "source": "Madras High Court",
+   "status": "page not readable (ReadTimeout)",
+   "added": 0
+  },
+  {
+   "source": "Kerala PSC",
+   "status": "ok",
+   "added": 0
+  },
+  {
+   "source": "Karnataka PSC",
+   "status": "page not readable (ConnectTimeout)",
+   "added": 0
+  },
+  {
+   "source": "UPSC",
+   "status": "page not readable (ConnectTimeout)",
+   "added": 0
+  },
+  {
+   "source": "SSC",
+   "status": "ok",
+   "added": 0
+  },
+  {
+   "source": "India Post GDS",
+   "status": "ok",
+   "added": 0
+  },
+  {
+   "source": "RRB (Railway Recruitment Boards)",
+   "status": "page not readable (ConnectTimeout)",
+   "added": 0
+  },
+  {
+   "source": "RRC Southern Railway",
+   "status": "ok",
+   "added": 0
+  },
+  {
+   "source": "IBPS",
+   "status": "ok",
+   "added": 0
+  },
+  {
+   "source": "SBI Careers",
+   "status": "ok",
+   "added": 0
+  },
+  {
+   "source": "RBI",
+   "status": "ok",
+   "added": 0
+  },
+  {
+   "source": "Indian Army Agniveer",
+   "status": "page not readable (ConnectTimeout)",
+   "added": 0
+  }
+ ],
+ "ai_calls": 0
 }
