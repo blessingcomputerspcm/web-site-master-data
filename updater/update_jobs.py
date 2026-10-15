@@ -64,13 +64,13 @@ def save_json(path, data):
 
 
 # ------------------------------------------------------------------ fetching
-def http_get(url, timeout=40):
+def http_get(url, timeout=30):
     """GET with fallback for govt sites that have broken SSL certificates."""
     headers = {"User-Agent": UA, "Accept-Language": "en-IN,en;q=0.9,ta;q=0.8"}
     try:
-        return requests.get(url, headers=headers, timeout=timeout)
+        return requests.get(url, headers=headers, timeout=(12, timeout))
     except requests.exceptions.SSLError:
-        return requests.get(url, headers=headers, timeout=timeout, verify=False)
+        return requests.get(url, headers=headers, timeout=(12, timeout), verify=False)
 
 
 def page_links(url):
@@ -127,7 +127,8 @@ class Gemini:
     def pick_model(self):
         """Pick the newest Flash model that supports generateContent."""
         try:
-            r = requests.get(f"{self.BASE}/models", params={"key": self.key, "pageSize": 200}, timeout=30)
+            r = requests.get(f"{self.BASE}/models", params={"pageSize": 200},
+                             headers={"x-goog-api-key": self.key}, timeout=30)
             r.raise_for_status()
             cands = []
             for m in r.json().get("models", []):
@@ -155,7 +156,7 @@ class Gemini:
             body["generationConfig"]["responseMimeType"] = "application/json"
         for attempt in range(4):
             r = requests.post(f"{self.BASE}/models/{self.model}:generateContent",
-                              params={"key": self.key}, json=body, timeout=120)
+                              headers={"x-goog-api-key": self.key}, json=body, timeout=120)
             if r.status_code == 429 or r.status_code >= 500:
                 wait = 20 * (attempt + 1)
                 log(f"Gemini busy ({r.status_code}), waiting {wait}s")
@@ -375,6 +376,8 @@ def main():
     sources = [s for s in load_json(SOURCES_PATH, []) if s.get("enabled", True)]
     old = load_json(JOBS_PATH, {"vacs": []})
     seen = load_json(SEEN_PATH, {"links": {}})
+    if seen.get("v") != 2:  # reset old-format list (v1 marked links seen without reading them)
+        seen = {"v": 2, "links": {}}
     allowed = cfg.get("allowed_domains", ["gov.in", "nic.in"])
     max_chars = cfg.get("max_text_chars", 12000)
     max_new = cfg.get("max_new_links_per_source", 4)
@@ -400,17 +403,25 @@ def main():
             links = [(t, h) for t, h in page_links(src["url"]) if looks_like_job(t, h)]
             new = [(t, h) for t, h in links if h not in seen["links"]]
             log(f"  {len(links)} job-like links, {len(new)} new")
-            for t, h in new:
-                seen["links"][h] = TODAY.isoformat()
-            # first ever run: only look at the top few links (pages list newest first)
+            if not ai.providers:
+                log("  (no AI key - links kept for next run)")
+                new = []
+            elif first_run:
+                # first ever run: old backlog is skipped, only the top links are read
+                for t, h in new[max_new:]:
+                    seen["links"][h] = TODAY.isoformat()
             for t, h in new[:max_new]:
-                if not ai.providers:
-                    break
                 try:
                     text = doc_text(h, max_chars)
                     if len(text) < 200:
+                        seen["links"][h] = TODAY.isoformat()
                         continue
-                    res = ai.ask_json(extract_prompt(src, t, h, text))
+                    try:
+                        res = ai.ask_json(extract_prompt(src, t, h, text))
+                    except AIError as e:
+                        log("  AI not available now, will retry next run:", e)
+                        break
+                    seen["links"][h] = TODAY.isoformat()
                     for j in (res.get("jobs", []) if isinstance(res, dict) else res):
                         cj = clean_job(j, src, allowed, "page")
                         if cj:
@@ -419,6 +430,7 @@ def main():
                             jobs[job_key(cj)] = {**jobs.get(job_key(cj), {}), **cj}
                             added += 1
                 except Exception as e:
+                    seen["links"][h] = TODAY.isoformat()
                     log("  link failed:", h, e)
         except Exception as e:
             status = f"page not readable ({type(e).__name__})"
@@ -454,8 +466,8 @@ def main():
     save_json(JOBS_PATH, out)
     save_json(SEEN_PATH, seen)
     log(f"DONE: {len(vacs)} open jobs written. AI calls used: {ai.calls}")
-    if first_run:
-        log("(First run: old links were marked as seen.)")
+    if not ai.providers:
+        log("WARNING: GEMINI_API_KEY secret is empty. Add it in Settings > Secrets and variables > Actions.")
 
 
 if __name__ == "__main__":
