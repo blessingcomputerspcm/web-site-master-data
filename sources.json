@@ -1,0 +1,18 @@
+[
+ {"name": "TNPSC", "cat": "tn", "siteId": "s1", "url": "https://www.tnpsc.gov.in", "apply": "https://apply.tnpscexams.in", "enabled": true},
+ {"name": "TNUSRB", "cat": "tn", "siteId": "s2", "url": "https://www.tnusrb.tn.gov.in", "enabled": true},
+ {"name": "TN TRB", "cat": "tn", "siteId": "s3", "url": "https://www.trb.tn.gov.in", "enabled": true},
+ {"name": "TN MRB", "cat": "tn", "siteId": "s4", "url": "https://www.mrb.tn.gov.in", "enabled": true},
+ {"name": "Madras High Court", "cat": "tn", "siteId": "s5", "url": "https://www.mhc.tn.gov.in", "enabled": true},
+ {"name": "Kerala PSC", "cat": "state", "siteId": "s8", "url": "https://www.keralapsc.gov.in", "apply": "https://thulasi.psc.kerala.gov.in", "enabled": true},
+ {"name": "Karnataka PSC", "cat": "state", "siteId": "s9", "url": "https://kpsc.kar.nic.in", "enabled": true},
+ {"name": "UPSC", "cat": "central", "siteId": "s13", "url": "https://upsc.gov.in", "apply": "https://upsconline.nic.in", "enabled": true},
+ {"name": "SSC", "cat": "central", "siteId": "s14", "url": "https://ssc.gov.in", "enabled": true},
+ {"name": "India Post GDS", "cat": "central", "siteId": "s15", "url": "https://indiapostgdsonline.gov.in", "enabled": true},
+ {"name": "RRB (Railway Recruitment Boards)", "cat": "rail", "siteId": "s19", "url": "https://www.rrbchennai.gov.in", "apply": "https://www.rrbapply.gov.in", "enabled": true},
+ {"name": "RRC Southern Railway", "cat": "rail", "siteId": "s21", "url": "https://www.rrcmas.in", "enabled": true},
+ {"name": "IBPS", "cat": "bank", "siteId": "s22", "url": "https://www.ibps.in", "enabled": true},
+ {"name": "SBI Careers", "cat": "bank", "siteId": "s23", "url": "https://sbi.bank.in/web/careers/current-openings", "enabled": true},
+ {"name": "RBI", "cat": "bank", "siteId": "s24", "url": "https://opportunities.rbi.org.in", "enabled": true},
+ {"name": "Indian Army Agniveer", "cat": "def", "siteId": "s25", "url": "https://joinindianarmy.nic.in", "enabled": true}
+]

@@ -1,0 +1,15 @@
+{
+ "ai_provider": "gemini",
+ "backup_order": ["gemini", "chatgpt", "claude"],
+ "models": {
+  "gemini": "auto",
+  "chatgpt": "gpt-4o-mini",
+  "claude": "claude-haiku-4-5"
+ },
+ "use_google_search": true,
+ "seconds_between_ai_calls": 7,
+ "max_ai_calls_per_run": 60,
+ "max_new_links_per_source": 4,
+ "max_text_chars": 12000,
+ "allowed_domains": ["gov.in", "nic.in", "tnpscexams.in", "ibps.in", "sbi.bank.in", "sbi.co.in", "rbi.org.in", "rrcmas.in", "cdac.in"]
+}
