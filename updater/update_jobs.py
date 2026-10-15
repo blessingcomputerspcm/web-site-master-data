@@ -33,6 +33,7 @@ SEEN_PATH = os.path.join(ROOT, "data", "seen.json")
 
 IST = timezone(timedelta(hours=5, minutes=30))
 TODAY = datetime.now(IST).date()
+START = time.time()
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
@@ -121,11 +122,22 @@ class Gemini:
 
     def __init__(self, key, model):
         self.key = key
-        self.model = model if model and model != "auto" else self.pick_model()
-        log("Gemini model:", self.model)
+        if model and model != "auto":
+            self.models = [model]
+        else:
+            self.models = self.list_models()
+        self.idx = 0
+        self.search_ok = True
+        self.search_fail = 0
+        log("Gemini models to try:", ", ".join(self.models[:6]))
 
-    def pick_model(self):
-        """Pick the newest Flash model that supports generateContent."""
+    @property
+    def model(self):
+        return self.models[self.idx]
+
+    def list_models(self):
+        """Flash models that support generateContent: stable first, newest first."""
+        out = []
         try:
             r = requests.get(f"{self.BASE}/models", params={"pageSize": 200},
                              headers={"x-goog-api-key": self.key}, timeout=30)
@@ -136,40 +148,81 @@ class Gemini:
                 if "generateContent" not in m.get("supportedGenerationMethods", []):
                     continue
                 low = name.lower()
-                if "flash" not in low or any(x in low for x in ["lite", "image", "tts", "live", "audio", "thinking", "exp"]):
+                if "flash" not in low or any(x in low for x in ["image", "tts", "live", "audio", "thinking", "exp"]):
                     continue
                 ver = re.findall(r"(\d+(?:\.\d+)?)", low)
-                cands.append((float(ver[0]) if ver else 0, "preview" not in low, name))
-            if cands:
-                cands.sort(reverse=True)
-                return cands[0][2]
+                stable = "preview" not in low and "latest" not in low
+                lite = "lite" in low
+                cands.append((stable, not lite, float(ver[0]) if ver else 0, name))
+            cands.sort(reverse=True)
+            out = [c[3] for c in cands]
         except Exception as e:
             log("Model list failed:", e)
-        return "gemini-flash-latest"
+        for extra in ["gemini-flash-latest", "gemini-flash-lite-latest"]:
+            if extra not in out:
+                out.append(extra)
+        return out
+
+    def next_model(self, why):
+        if self.idx + 1 < len(self.models):
+            self.idx += 1
+            log(f"  switching Gemini model -> {self.model} ({why})")
+            return True
+        return False
 
     def ask(self, prompt, use_search=False):
+        if use_search and not self.search_ok:
+            raise AIError("Google Search mode off for this run")
         body = {"contents": [{"parts": [{"text": prompt}]}],
                 "generationConfig": {"temperature": 0.1}}
         if use_search:
             body["tools"] = [{"google_search": {}}]
         else:
             body["generationConfig"]["responseMimeType"] = "application/json"
-        for attempt in range(4):
+        waits = 0
+        while True:
             r = requests.post(f"{self.BASE}/models/{self.model}:generateContent",
                               headers={"x-goog-api-key": self.key}, json=body, timeout=120)
-            if r.status_code == 429 or r.status_code >= 500:
-                wait = 20 * (attempt + 1)
-                log(f"Gemini busy ({r.status_code}), waiting {wait}s")
-                time.sleep(wait)
+            if r.status_code == 200:
+                break
+            msg = r.text[:600]
+            if r.status_code == 429:
+                low = msg.lower()
+                log("  Gemini 429:", " ".join(msg.split())[:220])
+                m = re.search(r'"retryDelay":\s*"(\d+)', msg)
+                delay = int(m.group(1)) + 2 if m else 30
+                if "limit: 0" in low or "perday" in low or "per day" in low or delay > 90:
+                    # this model has no (or no more) free quota today -> try another model
+                    if use_search:
+                        self.search_fail += 1
+                        if self.search_fail >= 2:
+                            self.search_ok = False
+                            log("  Google Search mode has no free quota - turned off for this run")
+                        raise AIError("search quota")
+                    if self.next_model("no free quota"):
+                        continue
+                    raise AIError("Gemini daily free quota finished: " + msg[:200])
+                if waits >= 2:
+                    raise AIError("Gemini busy: " + msg[:200])
+                waits += 1
+                log(f"  Gemini per-minute limit, waiting {delay}s")
+                time.sleep(min(delay, 70))
                 continue
-            if r.status_code != 200:
-                raise AIError(f"Gemini {r.status_code}: {r.text[:300]}")
-            try:
-                parts = r.json()["candidates"][0]["content"]["parts"]
-                return "".join(p.get("text", "") for p in parts)
-            except Exception:
-                raise AIError("Gemini empty answer")
-        raise AIError("Gemini quota / busy")
+            if r.status_code >= 500 and waits < 2:
+                waits += 1
+                time.sleep(15)
+                continue
+            if r.status_code in (400, 404) and use_search:
+                self.search_ok = False
+                raise AIError("Google Search not supported: " + msg[:200])
+            if r.status_code == 404 and self.next_model("model not found"):
+                continue
+            raise AIError(f"Gemini {r.status_code}: {msg[:300]}")
+        try:
+            parts = r.json()["candidates"][0]["content"]["parts"]
+            return "".join(p.get("text", "") for p in parts)
+        except Exception:
+            raise AIError("Gemini empty answer")
 
 
 class OpenAIChat:
@@ -232,6 +285,8 @@ class AI:
             log("ERROR: no AI API key found. Add GEMINI_API_KEY in GitHub Secrets.")
 
     def ask_json(self, prompt, use_search=False):
+        if time.time() - START > 28 * 60:
+            raise AIError("time limit for this run reached")
         if self.calls >= self.max_calls:
             raise AIError("max AI calls for this run reached")
         last = None
