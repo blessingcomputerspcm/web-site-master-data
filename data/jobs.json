@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-17 02:01",
- "count": 17,
+ "updated": "2026-10-17 03:06",
+ "count": 20,
  "vacs": [
   {
    "org": "Canara Bank",
@@ -23,6 +23,29 @@
    "source": "auto-page",
    "added": "2026-10-16",
    "id": "ae58a93fe0e"
+  },
+  {
+   "org": "Canara Bank",
+   "post": "Graduate Apprentice",
+   "postTa": "பட்டதாரி தொழில்பழகுநர்",
+   "total": "Not mentioned",
+   "start": "2026-10-01",
+   "last": "2026-10-17",
+   "qual": "Graduate",
+   "age": "",
+   "fee": "Refer notification",
+   "docs": [
+    "Passport size photo / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://ibpsreg.ibps.in/cabgasep26/",
+   "applyUrl": "https://ibpsreg.ibps.in/cabgasep26/",
+   "note": "Last date for printing application is 01-11-2026.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-17",
+   "id": "ac5e19bb14f"
   },
   {
    "org": "IBPS",
@@ -109,6 +132,29 @@
    "source": "auto-page",
    "added": "2026-10-16",
    "id": "af7e29930d0"
+  },
+  {
+   "org": "IBPS",
+   "post": "IEB Special Recruitment Drive (SRD) 2026",
+   "postTa": "ஐஇபி சிறப்பு ஆட்சேர்ப்பு முகாம் (SRD) 2026",
+   "total": "Various",
+   "start": "2026-09-15",
+   "last": "2026-10-21",
+   "qual": "Refer official notification",
+   "age": "Refer official notification",
+   "fee": "Refer official notification",
+   "docs": [
+    "Passport size photograph / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://ibpsreg.ibps.in/iebsrdaug26/",
+   "applyUrl": "https://ibpsreg.ibps.in/iebsrdaug26/",
+   "note": "Last date to print application form is 05-Nov-2026.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-17",
+   "id": "a2ecb94f650"
   },
   {
    "org": "KUCBL",
@@ -240,23 +286,49 @@
    "id": "a78d3648f06"
   },
   {
-   "org": "NIT",
-   "post": "Non-Faculty Positions",
-   "postTa": "கற்பித்தல் அல்லாத பணியிடங்கள்",
-   "total": "Various",
-   "start": "2026-10-01",
-   "last": "2026-10-30",
-   "qual": "Not specified in text",
+   "org": "MPA",
+   "post": "Recruitment of Class I & II Posts",
+   "postTa": "வகுப்பு I மற்றும் II பணியிடங்களுக்கான ஆட்சேர்ப்பு",
+   "total": "",
+   "start": "2026-09-29",
+   "last": "2026-10-28",
+   "qual": "",
    "age": "",
    "fee": "",
-   "docs": [],
-   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
-   "applyUrl": "https://www.ibps.in",
-   "note": "Recruitment of Non-Faculty positions at NIT.",
+   "docs": [
+    "Photograph / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://ibpsreg.ibps.in/mpajul26/",
+   "applyUrl": "https://ibpsreg.ibps.in/mpajul26/",
+   "note": "Last date for printing application is 12/11/2026.",
    "cat": "bank",
    "siteId": "s22",
    "source": "auto-page",
-   "added": "2026-10-16",
+   "added": "2026-10-17",
+   "id": "ad3e5ef1318"
+  },
+  {
+   "org": "NIT",
+   "post": "Non-Faculty Positions",
+   "postTa": "ஆசிரியர் அல்லாத பணியிடங்கள்",
+   "total": "Various",
+   "start": "2026-10-01",
+   "last": "2026-10-30",
+   "qual": "",
+   "age": "",
+   "fee": "",
+   "docs": [
+    "Passport size photo / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://ibpsreg.ibps.in/nitrjul26/",
+   "applyUrl": "https://ibpsreg.ibps.in/nitrjul26/",
+   "note": "Last date for printing application is 15-11-2026.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-17",
    "id": "af7b4538e4c"
   },
   {
@@ -294,22 +366,22 @@
    "total": "Various",
    "start": "2026-09-30",
    "last": "2026-11-04",
-   "qual": "Refer notification",
-   "age": "Refer notification",
-   "fee": "Refer notification",
+   "qual": "Refer official notification",
+   "age": "Refer official notification",
+   "fee": "Refer official notification",
    "docs": [
-    "Passport size photo / புகைப்படம்",
+    "Photo / புகைப்படம்",
     "Signature / கையொப்பம்",
-    "Educational certificates / கல்விச் சான்றிதழ்கள்",
-    "Identity proof / அடையாள அட்டை"
+    "Aadhaar card / ஆதார் அட்டை",
+    "Educational certificates / கல்விச் சான்றிதழ்கள்"
    ],
-   "notifyUrl": "https://www.keralapsc.gov.in/index.php/notifications",
+   "notifyUrl": "https://www.keralapsc.gov.in/notifications",
    "applyUrl": "https://thulasi.psc.kerala.gov.in",
-   "note": "Extra Ordinary Gazette date 30/09/2026 for Category Numbers 151/2026 to 161/2026.",
+   "note": "Gazette notification dated 30/09/2026; last date to apply is 04-11-2026.",
    "cat": "state",
    "siteId": "s8",
    "source": "auto-page",
-   "added": "2026-10-16",
+   "added": "2026-10-17",
    "id": "a4ec7d6d7d3"
   },
   {
@@ -426,13 +498,13 @@
   },
   {
    "source": "Madras High Court",
-   "status": "page not readable (ReadTimeout)",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   },
   {
    "source": "Kerala PSC",
    "status": "ok",
-   "added": 0
+   "added": 1
   },
   {
    "source": "Karnataka PSC",
@@ -467,7 +539,7 @@
   {
    "source": "IBPS",
    "status": "ok",
-   "added": 0
+   "added": 4
   },
   {
    "source": "SBI Careers",
@@ -485,5 +557,5 @@
    "added": 0
   }
  ],
- "ai_calls": 2
+ "ai_calls": 6
 }
