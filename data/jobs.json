@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-17 03:06",
- "count": 20,
+ "updated": "2026-10-17 04:00",
+ "count": 22,
  "vacs": [
   {
    "org": "Canara Bank",
@@ -46,6 +46,29 @@
    "source": "auto-page",
    "added": "2026-10-17",
    "id": "ac5e19bb14f"
+  },
+  {
+   "org": "Canara Bank",
+   "post": "Engagement of Graduate Apprentices",
+   "postTa": "பட்டதாரி தொழிற்பழகுநர் (Graduate Apprentice)",
+   "total": "Various",
+   "start": "2026-10-01",
+   "last": "2026-10-17",
+   "qual": "Graduate degree",
+   "age": "Refer notification",
+   "fee": "Refer notification",
+   "docs": [
+    "Photo / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment/",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Last date to apply is today (17-Oct-2026).",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-17",
+   "id": "aa9aa4b280b"
   },
   {
    "org": "IBPS",
@@ -120,17 +143,20 @@
    "total": "Various",
    "start": "2026-09-15",
    "last": "2026-10-21",
-   "qual": "Not specified in text",
-   "age": "",
-   "fee": "",
-   "docs": [],
-   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "qual": "Refer notification",
+   "age": "Refer notification",
+   "fee": "Refer notification",
+   "docs": [
+    "Photo / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment/",
    "applyUrl": "https://www.ibps.in",
-   "note": "Special Recruitment Drive via IBPS.",
+   "note": "Special Recruitment Drive (SRD).",
    "cat": "bank",
    "siteId": "s22",
    "source": "auto-page",
-   "added": "2026-10-16",
+   "added": "2026-10-17",
    "id": "af7e29930d0"
   },
   {
@@ -163,20 +189,20 @@
    "total": "Various",
    "start": "2026-10-02",
    "last": "2026-10-25",
-   "qual": "",
-   "age": "",
-   "fee": "",
+   "qual": "Refer notification",
+   "age": "Refer notification",
+   "fee": "Refer notification",
    "docs": [
-    "Photograph / புகைப்படம்",
+    "Photo / புகைப்படம்",
     "Signature / கையொப்பம்"
    ],
-   "notifyUrl": "https://ibpsreg.ibps.in/kucbldec25/",
-   "applyUrl": "https://ibpsreg.ibps.in/kucbldec25/",
-   "note": "Last date for application and fee payment is 25-10-2026; application printing is available until 10-11-2026.",
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment/",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Recruitment of Managers and Assistant Managers.",
    "cat": "bank",
    "siteId": "s22",
    "source": "auto-page",
-   "added": "2026-10-16",
+   "added": "2026-10-17",
    "id": "a3a2d2784d4"
   },
   {
@@ -223,43 +249,72 @@
    "id": "a01c949b1a3"
   },
   {
-   "org": "NIICL",
-   "post": "Administrative Officers",
-   "postTa": "நிர்வாக அலுவலர்கள் (Administrative Officers)",
-   "total": "321",
-   "start": "2026-10-08",
-   "last": "2026-10-28",
-   "qual": "Not specified in text",
-   "age": "",
-   "fee": "",
-   "docs": [],
-   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "org": "NABARD",
+   "post": "Specialists On Contract (CISO & DoS-CSITE)",
+   "postTa": "ஒப்பந்த அடிப்படையிலான நிபுணர்கள் (CISO & DoS-CSITE)",
+   "total": "Various",
+   "start": "2026-10-09",
+   "last": "2026-10-26",
+   "qual": "Refer notification",
+   "age": "Refer notification",
+   "fee": "Refer notification",
+   "docs": [
+    "Photo / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment/",
    "applyUrl": "https://www.ibps.in",
-   "note": "Total 321 vacancies announced.",
+   "note": "Recruitment of Specialists on Contract for 2026-27.",
    "cat": "bank",
    "siteId": "s22",
    "source": "auto-page",
-   "added": "2026-10-16",
+   "added": "2026-10-17",
+   "id": "a3c66253824"
+  },
+  {
+   "org": "NIICL",
+   "post": "Administrative Officers",
+   "postTa": "நிர்வாக அதிகாரிகள்",
+   "total": "321",
+   "start": "2026-10-08",
+   "last": "2026-10-28",
+   "qual": "Refer notification",
+   "age": "Refer notification",
+   "fee": "Refer notification",
+   "docs": [
+    "Photo / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment/",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Recruitment of 321 Administrative Officers.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-17",
    "id": "a855ca79a58"
   },
   {
    "org": "MPA",
    "post": "Class I & II Posts",
-   "postTa": "வகுப்பு I மற்றும் II பணியிடங்கள்",
+   "postTa": "வகுப்பு I & II பணியிடங்கள்",
    "total": "Various",
    "start": "2026-09-29",
    "last": "2026-10-28",
-   "qual": "Not specified in text",
-   "age": "",
-   "fee": "",
-   "docs": [],
-   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "qual": "Refer notification",
+   "age": "Refer notification",
+   "fee": "Refer notification",
+   "docs": [
+    "Photo / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment/",
    "applyUrl": "https://www.ibps.in",
-   "note": "Recruitment of Class I & II posts via IBPS.",
+   "note": "Recruitment for Class I and II posts.",
    "cat": "bank",
    "siteId": "s22",
    "source": "auto-page",
-   "added": "2026-10-16",
+   "added": "2026-10-17",
    "id": "ad8d403b60a"
   },
   {
@@ -315,16 +370,16 @@
    "total": "Various",
    "start": "2026-10-01",
    "last": "2026-10-30",
-   "qual": "",
-   "age": "",
-   "fee": "",
+   "qual": "Refer notification",
+   "age": "Refer notification",
+   "fee": "Refer notification",
    "docs": [
-    "Passport size photo / புகைப்படம்",
+    "Photo / புகைப்படம்",
     "Signature / கையொப்பம்"
    ],
-   "notifyUrl": "https://ibpsreg.ibps.in/nitrjul26/",
-   "applyUrl": "https://ibpsreg.ibps.in/nitrjul26/",
-   "note": "Last date for printing application is 15-11-2026.",
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment/",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Recruitment for non-faculty positions at NIT.",
    "cat": "bank",
    "siteId": "s22",
    "source": "auto-page",
@@ -498,13 +553,13 @@
   },
   {
    "source": "Madras High Court",
-   "status": "page not readable (ConnectTimeout)",
+   "status": "page not readable (ReadTimeout)",
    "added": 0
   },
   {
    "source": "Kerala PSC",
    "status": "ok",
-   "added": 1
+   "added": 0
   },
   {
    "source": "Karnataka PSC",
@@ -539,7 +594,7 @@
   {
    "source": "IBPS",
    "status": "ok",
-   "added": 4
+   "added": 7
   },
   {
    "source": "SBI Careers",
@@ -557,5 +612,5 @@
    "added": 0
   }
  ],
- "ai_calls": 6
+ "ai_calls": 4
 }
