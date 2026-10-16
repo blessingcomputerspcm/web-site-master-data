@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-16 06:35",
- "count": 8,
+ "updated": "2026-10-16 16:03",
+ "count": 16,
  "vacs": [
   {
    "org": "SBI",
@@ -23,6 +23,46 @@
    "source": "auto-page",
    "added": "2026-10-16",
    "id": "a7cdbb5bbdc"
+  },
+  {
+   "org": "BOB",
+   "post": "Human Resource Positions",
+   "postTa": "மனித வளம் சார்ந்த பணியிடங்கள் (Human Resource)",
+   "total": "Various",
+   "start": "2026-09-04",
+   "last": "2026-10-16",
+   "qual": "Not specified in text",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Last date to apply is today (16-Oct-2026).",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "af296b3f126"
+  },
+  {
+   "org": "Canara Bank",
+   "post": "Graduate Apprentices",
+   "postTa": "பட்டதாரி பயிற்சியாளர்கள் (Graduate Apprentices)",
+   "total": "Various",
+   "start": "2026-10-01",
+   "last": "2026-10-17",
+   "qual": "Not specified in text",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Engagement of Graduate Apprentices in Canara Bank.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "ae58a93fe0e"
   },
   {
    "org": "SBI",
@@ -66,6 +106,126 @@
    "source": "auto-page",
    "added": "2026-10-16",
    "id": "adb2144cca2"
+  },
+  {
+   "org": "IEB",
+   "post": "Special Recruitment Drive (SRD)",
+   "postTa": "சிறப்பு ஆட்சேர்ப்பு முகாம் (SRD)",
+   "total": "Various",
+   "start": "2026-09-15",
+   "last": "2026-10-21",
+   "qual": "Not specified in text",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Special Recruitment Drive via IBPS.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "af7e29930d0"
+  },
+  {
+   "org": "KUCBL",
+   "post": "Managers and Assistant Managers",
+   "postTa": "மேலாளர்கள் மற்றும் உதவி மேலாளர்கள்",
+   "total": "Various",
+   "start": "2026-10-02",
+   "last": "2026-10-25",
+   "qual": "Not specified in text",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Ongoing recruitment via IBPS.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "a3a2d2784d4"
+  },
+  {
+   "org": "NABARD",
+   "post": "Specialists On Contract (CISO & DoS-CSITE) 2026-27",
+   "postTa": "ஒப்பந்த அடிப்படையிலான நிபுணர்கள் (CISO & DoS-CSITE) 2026-27",
+   "total": "Various",
+   "start": "2026-10-09",
+   "last": "2026-10-26",
+   "qual": "Not specified in text",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Recruitment on contract basis for 2026-27.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "aee50faa80d"
+  },
+  {
+   "org": "NIICL",
+   "post": "Administrative Officers",
+   "postTa": "நிர்வாக அலுவலர்கள் (Administrative Officers)",
+   "total": "321",
+   "start": "2026-10-08",
+   "last": "2026-10-28",
+   "qual": "Not specified in text",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Total 321 vacancies announced.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "a855ca79a58"
+  },
+  {
+   "org": "MPA",
+   "post": "Class I & II Posts",
+   "postTa": "வகுப்பு I மற்றும் II பணியிடங்கள்",
+   "total": "Various",
+   "start": "2026-09-29",
+   "last": "2026-10-28",
+   "qual": "Not specified in text",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Recruitment of Class I & II posts via IBPS.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "ad8d403b60a"
+  },
+  {
+   "org": "NIT",
+   "post": "Non-Faculty Positions",
+   "postTa": "கற்பித்தல் அல்லாத பணியிடங்கள்",
+   "total": "Various",
+   "start": "2026-10-01",
+   "last": "2026-10-30",
+   "qual": "Not specified in text",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
+   "applyUrl": "https://www.ibps.in",
+   "note": "Recruitment of Non-Faculty positions at NIT.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "af7b4538e4c"
   },
   {
    "cat": "state",
@@ -240,7 +400,7 @@
   {
    "source": "Kerala PSC",
    "status": "ok",
-   "added": 1
+   "added": 0
   },
   {
    "source": "Karnataka PSC",
@@ -275,12 +435,12 @@
   {
    "source": "IBPS",
    "status": "ok",
-   "added": 0
+   "added": 8
   },
   {
    "source": "SBI Careers",
    "status": "ok",
-   "added": 4
+   "added": 0
   },
   {
    "source": "RBI",
@@ -293,5 +453,5 @@
    "added": 0
   }
  ],
- "ai_calls": 34
+ "ai_calls": 2
 }
