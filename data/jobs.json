@@ -1,9 +1,72 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-15 22:54",
- "count": 4,
+ "updated": "2026-10-16 06:35",
+ "count": 8,
  "vacs": [
+  {
+   "org": "SBI",
+   "post": "Specialist Cadre Officer (Faculty, Marketing Executive, Dean)",
+   "postTa": "ஸ்பெஷலிஸ்ட் கேடர் அதிகாரி (Faculty, Marketing Executive, Dean)",
+   "total": "Various",
+   "start": "",
+   "last": "2026-10-16",
+   "qual": "",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
+   "applyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
+   "note": "Engagement of Specialist Cadre Officer on contract basis (CRPD/SCO/2026-27/20).",
+   "cat": "bank",
+   "siteId": "s23",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "a7cdbb5bbdc"
+  },
+  {
+   "org": "SBI",
+   "post": "Specialist Cadre Officers (Wealth Management Department)",
+   "postTa": "ஸ்பெஷலிஸ்ட் கேடர் ஆபிசர்ஸ் (SCO - Wealth Management)",
+   "total": "Various",
+   "start": "2026-09-30",
+   "last": "2026-10-21",
+   "qual": "",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply",
+   "applyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply",
+   "note": "Advertisement No: CRPD/SCO/2026-27/25",
+   "cat": "bank",
+   "siteId": "s23",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "a1287941f7b"
+  },
+  {
+   "org": "SBI",
+   "post": "Specialist Cadre Officers (Contract Basis)",
+   "postTa": "சிறப்புப் பிரிவு அதிகாரிகள் (ஒப்பந்த அடிப்படை)",
+   "total": "Various",
+   "start": "2026-09-30",
+   "last": "2026-10-21",
+   "qual": "Refer notification",
+   "age": "Refer notification",
+   "fee": "Refer notification",
+   "docs": [
+    "Photograph / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-24/apply",
+   "applyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-24/apply",
+   "note": "Posts include Deputy Vice President and Content Specialist on contract basis (CRPD/SCO/2026-27/24).",
+   "cat": "bank",
+   "siteId": "s23",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "adb2144cca2"
+  },
   {
    "cat": "state",
    "siteId": "s8",
@@ -31,6 +94,31 @@
    "source": "seed",
    "added": "2026-10-15",
    "id": "a690bcb3e18"
+  },
+  {
+   "org": "Kerala PSC",
+   "post": "Various Posts (Cat. No. 151/2026 to 161/2026)",
+   "postTa": "பல்வேறு பணியிடங்கள் (பிரிவு எண் 151/2026 முதல் 161/2026 வரை)",
+   "total": "Various",
+   "start": "2026-09-30",
+   "last": "2026-11-04",
+   "qual": "Refer notification",
+   "age": "Refer notification",
+   "fee": "Refer notification",
+   "docs": [
+    "Passport size photo / புகைப்படம்",
+    "Signature / கையொப்பம்",
+    "Educational certificates / கல்விச் சான்றிதழ்கள்",
+    "Identity proof / அடையாள அட்டை"
+   ],
+   "notifyUrl": "https://www.keralapsc.gov.in/index.php/notifications",
+   "applyUrl": "https://thulasi.psc.kerala.gov.in",
+   "note": "Extra Ordinary Gazette date 30/09/2026 for Category Numbers 151/2026 to 161/2026.",
+   "cat": "state",
+   "siteId": "s8",
+   "source": "auto-page",
+   "added": "2026-10-16",
+   "id": "a4ec7d6d7d3"
   },
   {
    "cat": "tn",
@@ -152,7 +240,7 @@
   {
    "source": "Kerala PSC",
    "status": "ok",
-   "added": 0
+   "added": 1
   },
   {
    "source": "Karnataka PSC",
@@ -186,13 +274,13 @@
   },
   {
    "source": "IBPS",
-   "status": "page not readable (SSLError)",
+   "status": "ok",
    "added": 0
   },
   {
    "source": "SBI Careers",
    "status": "ok",
-   "added": 0
+   "added": 4
   },
   {
    "source": "RBI",
@@ -205,5 +293,5 @@
    "added": 0
   }
  ],
- "ai_calls": 22
+ "ai_calls": 34
 }
