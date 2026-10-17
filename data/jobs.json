@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-17 07:02",
+ "updated": "2026-10-17 07:58",
  "count": 22,
  "vacs": [
   {
@@ -612,5 +612,5 @@
    "added": 0
   }
  ],
- "ai_calls": 2
+ "ai_calls": 0
 }
