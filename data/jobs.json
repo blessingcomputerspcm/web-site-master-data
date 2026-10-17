@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-17 19:55",
- "count": 22,
+ "updated": "2026-10-17 20:56",
+ "count": 23,
  "vacs": [
   {
    "org": "Canara Bank",
@@ -500,6 +500,26 @@
    "id": "a61c87f00a0"
   },
   {
+   "org": "SBI",
+   "post": "Specialist Cadre Officers on Fixed Term Employment (CRPD/SCO/2026-27/30)",
+   "postTa": "சிறப்பு அதிகாரி (Specialist Cadre Officers - Fixed Term Employment)",
+   "total": "Various",
+   "start": "2026-10-19",
+   "last": "2026-11-09",
+   "qual": "",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://sbi.bank.in/web/careers/current-openings",
+   "applyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-30/apply",
+   "note": "Fixed term employment for AI Architects, DGM, and GM & Chief-AI-Officer posts.",
+   "cat": "bank",
+   "siteId": "s23",
+   "source": "auto-page",
+   "added": "2026-10-17",
+   "id": "a700e6dba5b"
+  },
+  {
    "cat": "rail",
    "siteId": "s19",
    "org": "RRB",
@@ -598,8 +618,8 @@
   },
   {
    "source": "SBI Careers",
-   "status": "page not readable (ConnectionError)",
-   "added": 0
+   "status": "ok",
+   "added": 1
   },
   {
    "source": "RBI",
@@ -612,5 +632,5 @@
    "added": 0
   }
  ],
- "ai_calls": 0
+ "ai_calls": 1
 }
