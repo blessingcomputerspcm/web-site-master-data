@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-17 20:56",
+ "updated": "2026-10-17 21:56",
  "count": 23,
  "vacs": [
   {
@@ -619,7 +619,7 @@
   {
    "source": "SBI Careers",
    "status": "ok",
-   "added": 1
+   "added": 0
   },
   {
    "source": "RBI",
@@ -632,5 +632,5 @@
    "added": 0
   }
  ],
- "ai_calls": 1
+ "ai_calls": 0
 }
