@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-18 13:57",
+ "updated": "2026-10-18 14:56",
  "count": 20,
  "vacs": [
   {
@@ -532,7 +532,7 @@
   },
   {
    "source": "India Post GDS",
-   "status": "page not readable (HTTPError)",
+   "status": "ok",
    "added": 0
   },
   {
@@ -547,7 +547,7 @@
   },
   {
    "source": "IBPS",
-   "status": "ok",
+   "status": "page not readable (SSLError)",
    "added": 0
   },
   {
