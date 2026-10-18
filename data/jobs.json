@@ -1,32 +1,9 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-18 23:57",
- "count": 20,
+ "updated": "2026-10-19 00:53",
+ "count": 19,
  "vacs": [
-  {
-   "org": "IBPS",
-   "post": "Promotion to Labour Enforcement Officer (LEO)",
-   "postTa": "தொழிலாளர் அமலாக்க அலுவலர் (LEO)",
-   "total": "",
-   "start": "2026-10-06",
-   "last": "2026-10-18",
-   "qual": "",
-   "age": "",
-   "fee": "",
-   "docs": [
-    "Photograph / புகைப்படம்",
-    "Signature / கையொப்பம்"
-   ],
-   "notifyUrl": "https://ibpsreg.ibps.in/clchleosep26/",
-   "applyUrl": "https://ibpsreg.ibps.in/clchleosep26/",
-   "note": "Last date for online registration is 18/10/2026 up to 06:00 PM.",
-   "cat": "bank",
-   "siteId": "s22",
-   "source": "auto-page",
-   "added": "2026-10-16",
-   "id": "a18fb72902b"
-  },
   {
    "org": "SBI",
    "post": "Specialist Cadre Officers (Wealth Management Department)",
