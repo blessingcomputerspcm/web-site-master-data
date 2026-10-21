@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-21 17:02",
+ "updated": "2026-10-21 18:08",
  "count": 19,
  "vacs": [
   {
@@ -539,7 +539,7 @@
   },
   {
    "source": "Indian Army Agniveer",
-   "status": "ok",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   }
  ],
