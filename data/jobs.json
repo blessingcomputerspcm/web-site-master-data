@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-25 06:04",
+ "updated": "2026-10-25 07:01",
  "count": 15,
  "vacs": [
   {
@@ -390,7 +390,7 @@
   },
   {
    "source": "TN MRB",
-   "status": "page not readable (ConnectionError)",
+   "status": "ok",
    "added": 0
   },
   {
