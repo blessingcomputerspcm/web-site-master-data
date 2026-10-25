@@ -1,32 +1,9 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-25 23:59",
- "count": 15,
+ "updated": "2026-10-26 00:56",
+ "count": 14,
  "vacs": [
-  {
-   "org": "KUCBL",
-   "post": "Managers and Assistant Managers",
-   "postTa": "மேலாளர்கள் மற்றும் உதவி மேலாளர்கள்",
-   "total": "Various",
-   "start": "2026-10-02",
-   "last": "2026-10-25",
-   "qual": "Refer notification",
-   "age": "Refer notification",
-   "fee": "Refer notification",
-   "docs": [
-    "Photo / புகைப்படம்",
-    "Signature / கையொப்பம்"
-   ],
-   "notifyUrl": "https://www.ibps.in/index.php/recruitment/",
-   "applyUrl": "https://www.ibps.in",
-   "note": "Recruitment of Managers and Assistant Managers.",
-   "cat": "bank",
-   "siteId": "s22",
-   "source": "auto-page",
-   "added": "2026-10-17",
-   "id": "a3a2d2784d4"
-  },
   {
    "org": "NABARD",
    "post": "Specialists On Contract (CISO & DoS-CSITE) 2026-27",
