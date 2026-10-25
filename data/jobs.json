@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-26 02:56",
+ "updated": "2026-10-26 03:53",
  "count": 14,
  "vacs": [
   {
@@ -407,12 +407,12 @@
   },
   {
    "source": "RRC Southern Railway",
-   "status": "page not readable (ConnectTimeout)",
+   "status": "ok",
    "added": 0
   },
   {
    "source": "IBPS",
-   "status": "page not readable (SSLError)",
+   "status": "ok",
    "added": 0
   },
   {
