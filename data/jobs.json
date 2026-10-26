@@ -1,75 +1,9 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-26 23:09",
- "count": 14,
+ "updated": "2026-10-27 00:15",
+ "count": 11,
  "vacs": [
-  {
-   "org": "NABARD",
-   "post": "Specialists On Contract (CISO & DoS-CSITE) 2026-27",
-   "postTa": "ஒப்பந்த அடிப்படையிலான நிபுணர்கள் (CISO & DoS-CSITE) 2026-27",
-   "total": "Various",
-   "start": "2026-10-09",
-   "last": "2026-10-26",
-   "qual": "Not specified in text",
-   "age": "",
-   "fee": "",
-   "docs": [],
-   "notifyUrl": "https://www.ibps.in/index.php/recruitment",
-   "applyUrl": "https://www.ibps.in",
-   "note": "Recruitment on contract basis for 2026-27.",
-   "cat": "bank",
-   "siteId": "s22",
-   "source": "auto-page",
-   "added": "2026-10-16",
-   "id": "aee50faa80d"
-  },
-  {
-   "org": "NABARD",
-   "post": "Specialists On Contract – 2026-27 – CISO & DoS-CSITE",
-   "postTa": "ஒப்பந்த அடிப்படையிலான நிபுணர்கள் – 2026-27 – CISO மற்றும் DoS-CSITE",
-   "total": "Various",
-   "start": "2026-10-09",
-   "last": "2026-10-26",
-   "qual": "Refer notification",
-   "age": "",
-   "fee": "Refer notification",
-   "docs": [
-    "Photograph / புகைப்படம்",
-    "Signature / கையொப்பம்"
-   ],
-   "notifyUrl": "https://ibpsreg.ibps.in/nabardsjul26/",
-   "applyUrl": "https://ibpsreg.ibps.in/nabardsjul26/",
-   "note": "Online fee payment and application editing window closes on 26/10/2026.",
-   "cat": "bank",
-   "siteId": "s22",
-   "source": "auto-page",
-   "added": "2026-10-16",
-   "id": "a01c949b1a3"
-  },
-  {
-   "org": "NABARD",
-   "post": "Specialists On Contract (CISO & DoS-CSITE)",
-   "postTa": "ஒப்பந்த அடிப்படையிலான நிபுணர்கள் (CISO & DoS-CSITE)",
-   "total": "Various",
-   "start": "2026-10-09",
-   "last": "2026-10-26",
-   "qual": "Refer notification",
-   "age": "Refer notification",
-   "fee": "Refer notification",
-   "docs": [
-    "Photo / புகைப்படம்",
-    "Signature / கையொப்பம்"
-   ],
-   "notifyUrl": "https://www.ibps.in/index.php/recruitment/",
-   "applyUrl": "https://www.ibps.in",
-   "note": "Recruitment of Specialists on Contract for 2026-27.",
-   "cat": "bank",
-   "siteId": "s22",
-   "source": "auto-page",
-   "added": "2026-10-17",
-   "id": "a3c66253824"
-  },
   {
    "org": "NIICL",
    "post": "Administrative Officers",
@@ -377,7 +311,7 @@
   },
   {
    "source": "Kerala PSC",
-   "status": "ok",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   },
   {
