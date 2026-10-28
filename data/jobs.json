@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-28 14:20",
+ "updated": "2026-10-28 15:17",
  "count": 11,
  "vacs": [
   {
@@ -286,7 +286,7 @@
  "report": [
   {
    "source": "TNPSC",
-   "status": "page not readable (ConnectTimeout)",
+   "status": "page not readable (ConnectionError)",
    "added": 0
   },
   {
@@ -326,7 +326,7 @@
   },
   {
    "source": "SSC",
-   "status": "ok",
+   "status": "page not readable (ConnectionError)",
    "added": 0
   },
   {
