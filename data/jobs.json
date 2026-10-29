@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-29 08:17",
- "count": 7,
+ "updated": "2026-10-29 09:18",
+ "count": 8,
  "vacs": [
   {
    "org": "NIT",
@@ -161,6 +161,29 @@
    "id": "a700e6dba5b"
   },
   {
+   "org": "IBPS",
+   "post": "Server Administrator, Assistant & Programming Assistant",
+   "postTa": "சர்வர் அட்மினிஸ்ட்ரேட்டர், உதவியாளர் மற்றும் புரோகிராமிங் உதவியாளர்",
+   "total": "Various",
+   "start": "2026-10-29",
+   "last": "2026-11-12",
+   "qual": "",
+   "age": "",
+   "fee": "",
+   "docs": [
+    "Photograph / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://ibpsreg.ibps.in/ibpsafeb26/",
+   "applyUrl": "https://ibpsreg.ibps.in/ibpsafeb26/",
+   "note": "Last date to print application is 27/11/2026.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-10-29",
+   "id": "a15d09fbbe1"
+  },
+  {
    "cat": "rail",
    "siteId": "s19",
    "org": "RRB",
@@ -254,8 +277,8 @@
   },
   {
    "source": "IBPS",
-   "status": "page not readable (SSLError)",
-   "added": 0
+   "status": "ok",
+   "added": 1
   },
   {
    "source": "SBI Careers",
@@ -273,5 +296,5 @@
    "added": 0
   }
  ],
- "ai_calls": 0
+ "ai_calls": 1
 }
