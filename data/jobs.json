@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-30 20:24",
+ "updated": "2026-10-30 21:18",
  "count": 8,
  "vacs": [
   {
@@ -232,7 +232,7 @@
   },
   {
    "source": "TN MRB",
-   "status": "page not readable (HTTPError)",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   },
   {
@@ -252,7 +252,7 @@
   },
   {
    "source": "UPSC",
-   "status": "page not readable (ConnectTimeout)",
+   "status": "page not readable (ConnectionError)",
    "added": 0
   },
   {
