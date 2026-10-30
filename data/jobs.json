@@ -1,32 +1,9 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-10-30 23:11",
- "count": 8,
+ "updated": "2026-10-31 00:13",
+ "count": 7,
  "vacs": [
-  {
-   "org": "NIT",
-   "post": "Non-Faculty Positions",
-   "postTa": "ஆசிரியர் அல்லாத பணியிடங்கள்",
-   "total": "Various",
-   "start": "2026-10-01",
-   "last": "2026-10-30",
-   "qual": "Refer notification",
-   "age": "Refer notification",
-   "fee": "Refer notification",
-   "docs": [
-    "Photo / புகைப்படம்",
-    "Signature / கையொப்பம்"
-   ],
-   "notifyUrl": "https://www.ibps.in/index.php/recruitment/",
-   "applyUrl": "https://www.ibps.in",
-   "note": "Recruitment for non-faculty positions at NIT.",
-   "cat": "bank",
-   "siteId": "s22",
-   "source": "auto-page",
-   "added": "2026-10-17",
-   "id": "af7b4538e4c"
-  },
   {
    "cat": "state",
    "siteId": "s8",
