@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-02 09:23",
+ "updated": "2026-11-02 10:27",
  "count": 7,
  "vacs": [
   {
@@ -219,7 +219,7 @@
   },
   {
    "source": "Kerala PSC",
-   "status": "ok",
+   "status": "page not readable (ConnectionError)",
    "added": 0
   },
   {
@@ -229,7 +229,7 @@
   },
   {
    "source": "UPSC",
-   "status": "page not readable (ConnectTimeout)",
+   "status": "page not readable (ConnectionError)",
    "added": 0
   },
   {
