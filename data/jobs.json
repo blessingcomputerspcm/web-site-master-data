@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-02 23:27",
- "count": 7,
+ "updated": "2026-11-03 00:27",
+ "count": 8,
  "vacs": [
   {
    "cat": "state",
@@ -189,6 +189,26 @@
    "source": "seed",
    "added": "2026-10-15",
    "id": "a8c9f47b79e"
+  },
+  {
+   "org": "SBI",
+   "post": "Specialist Cadre Officer (Risk Specialist)",
+   "postTa": "ஸ்பெஷலிஸ்ட் கேடர் அதிகாரி (ரிஸ்க் ஸ்பெஷலிஸ்ட்)",
+   "total": "Various",
+   "start": "2026-11-02",
+   "last": "2026-11-23",
+   "qual": "",
+   "age": "",
+   "fee": "",
+   "docs": [],
+   "notifyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-27/apply",
+   "applyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-27/apply",
+   "note": "Advertisement No CRPD/SCO/2026-27/27",
+   "cat": "bank",
+   "siteId": "s23",
+   "source": "auto-page",
+   "added": "2026-11-03",
+   "id": "af2aa56c7ca"
   }
  ],
  "report": [
@@ -219,7 +239,7 @@
   },
   {
    "source": "Kerala PSC",
-   "status": "page not readable (ConnectionError)",
+   "status": "ok",
    "added": 0
   },
   {
@@ -260,7 +280,7 @@
   {
    "source": "SBI Careers",
    "status": "ok",
-   "added": 0
+   "added": 1
   },
   {
    "source": "RBI",
@@ -273,5 +293,5 @@
    "added": 0
   }
  ],
- "ai_calls": 1
+ "ai_calls": 2
 }
