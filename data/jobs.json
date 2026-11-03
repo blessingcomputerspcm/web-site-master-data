@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-03 17:20",
+ "updated": "2026-11-03 18:31",
  "count": 8,
  "vacs": [
   {
@@ -214,7 +214,7 @@
  "report": [
   {
    "source": "TNPSC",
-   "status": "ok",
+   "status": "page not readable (ReadTimeout)",
    "added": 0
   },
   {
