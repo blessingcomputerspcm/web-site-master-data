@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-03 22:28",
- "count": 11,
+ "updated": "2026-11-03 23:21",
+ "count": 13,
  "vacs": [
   {
    "cat": "state",
@@ -191,6 +191,52 @@
    "id": "a8c9f47b79e"
   },
   {
+   "org": "RSBL",
+   "post": "Clerk (Junior Officer), Assistant Branch Manager & Assistant Manager-IT",
+   "postTa": "கிளார்க் (ஜூனியர் ஆபீசர்), உதவி கிளை மேலாளர் மற்றும் உதவி மேலாளர்-ஐடி",
+   "total": "Various",
+   "start": "2026-10-30",
+   "last": "2026-11-15",
+   "qual": "",
+   "age": "",
+   "fee": "",
+   "docs": [
+    "Passport size photo / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://ibpsreg.ibps.in/rsblrsep26/",
+   "applyUrl": "https://ibpsreg.ibps.in/rsblrsep26/",
+   "note": "Last date for printing application details is 30/11/2026.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-11-03",
+   "id": "a4335b9366d"
+  },
+  {
+   "org": "CWC",
+   "post": "Various Posts",
+   "postTa": "பல்வேறு பணியிடங்கள்",
+   "total": "Various",
+   "start": "2026-10-17",
+   "last": "2026-11-15",
+   "qual": "",
+   "age": "",
+   "fee": "",
+   "docs": [
+    "Photograph / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://ibpsreg.ibps.in/cwcaug26/",
+   "applyUrl": "https://ibpsreg.ibps.in/cwcaug26/",
+   "note": "Last date for printing the application form is 30-Nov-2026.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-11-03",
+   "id": "abd3058a474"
+  },
+  {
    "org": "SBI",
    "post": "Specialist Cadre Officer (Risk Specialist)",
    "postTa": "ஸ்பெஷலிஸ்ட் கேடர் அதிகாரி (ரிஸ்க் ஸ்பெஷலிஸ்ட்)",
@@ -303,7 +349,7 @@
   },
   {
    "source": "TN MRB",
-   "status": "page not readable (HTTPError)",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   },
   {
@@ -349,12 +395,12 @@
   {
    "source": "IBPS",
    "status": "ok",
-   "added": 0
+   "added": 2
   },
   {
    "source": "SBI Careers",
    "status": "ok",
-   "added": 4
+   "added": 0
   },
   {
    "source": "RBI",
@@ -367,5 +413,5 @@
    "added": 0
   }
  ],
- "ai_calls": 5
+ "ai_calls": 3
 }
