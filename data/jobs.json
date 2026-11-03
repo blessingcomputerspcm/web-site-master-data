@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-04 01:20",
+ "updated": "2026-11-04 02:16",
  "count": 13,
  "vacs": [
   {
@@ -334,7 +334,7 @@
  "report": [
   {
    "source": "TNPSC",
-   "status": "ok",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   },
   {
@@ -354,7 +354,7 @@
   },
   {
    "source": "Madras High Court",
-   "status": "page not readable (ReadTimeout)",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   },
   {
