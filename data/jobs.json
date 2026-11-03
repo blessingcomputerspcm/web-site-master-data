@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-03 21:22",
- "count": 8,
+ "updated": "2026-11-03 22:28",
+ "count": 11,
  "vacs": [
   {
    "cat": "state",
@@ -209,6 +209,80 @@
    "source": "auto-page",
    "added": "2026-11-03",
    "id": "af2aa56c7ca"
+  },
+  {
+   "org": "SBI",
+   "post": "Specialist Cadre Officer (Assistant Manager - Engineer (Fire))",
+   "postTa": "சிறப்பு கேடர் அதிகாரி (உதவி மேலாளர் - பொறியாளர் (தீ))",
+   "total": "Not mentioned",
+   "start": "2026-11-04",
+   "last": "2026-11-25",
+   "qual": "As per notification",
+   "age": "As per notification",
+   "fee": "As per notification",
+   "docs": [
+    "Photograph / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://sbi.bank.in/web/careers/current-openings",
+   "applyUrl": "https://ibpsreg.ibps.in/sbiameoct26/",
+   "note": "Last date for printing the application is 10/12/2026.",
+   "cat": "bank",
+   "siteId": "s23",
+   "source": "auto-page",
+   "added": "2026-11-03",
+   "id": "aed8cec4c98"
+  },
+  {
+   "org": "SBI",
+   "post": "Manager (Security) / Deputy Manager (Security)",
+   "postTa": "மேலாளர் (பாதுகாப்பு) / துணை மேலாளர் (பாதுகாப்பு)",
+   "total": "60",
+   "start": "2026-11-04",
+   "last": "2026-11-25",
+   "qual": "Graduate in any discipline with relevant officer experience in Armed Forces / Para-military forces",
+   "age": "25 to 40 years",
+   "fee": "Not mentioned",
+   "docs": [
+    "Resume / சுயவிவரக் குறிப்பு",
+    "ID proof / அடையாளச் சான்று",
+    "Age proof / வயதுச் சான்று",
+    "Caste certificate / சாதிச் சான்றிதழ்",
+    "Educational qualification certificate / கல்வித் தகுதிச் சான்றிதழ்",
+    "Experience certificate / பணி அனுபவச் சான்றிதழ்",
+    "Medical category document / மருத்துவப் பிரிவுச் சான்றிதழ்"
+   ],
+   "notifyUrl": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+   "applyUrl": "https://sbi.bank.in/web/careers/current-openings",
+   "note": "Selection process comprises an Online Written Test followed by Personal Interview.",
+   "cat": "bank",
+   "siteId": "s23",
+   "source": "auto-page",
+   "added": "2026-11-03",
+   "id": "a40baad9bf0"
+  },
+  {
+   "org": "SBI",
+   "post": "Specialist Cadre Officers (Manager (Security) / Deputy Manager (Security))",
+   "postTa": "சிறப்பு கேடர் அதிகாரிகள் (மேலாளர் - பாதுகாப்பு / துணை மேலாளர் - பாதுகாப்பு)",
+   "total": "Various",
+   "start": "2026-11-04",
+   "last": "2026-11-25",
+   "qual": "Refer official notification",
+   "age": "Refer official notification",
+   "fee": "Refer official notification",
+   "docs": [
+    "Photograph / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://sbi.bank.in/web/careers/current-openings",
+   "applyUrl": "https://ibpsreg.ibps.in/sbirscooct26/",
+   "note": "Last date for printing the filled-in application form is 10/12/2026.",
+   "cat": "bank",
+   "siteId": "s23",
+   "source": "auto-page",
+   "added": "2026-11-03",
+   "id": "afc8278fe29"
   }
  ],
  "report": [
@@ -229,7 +303,7 @@
   },
   {
    "source": "TN MRB",
-   "status": "page not readable (ConnectTimeout)",
+   "status": "page not readable (HTTPError)",
    "added": 0
   },
   {
@@ -280,7 +354,7 @@
   {
    "source": "SBI Careers",
    "status": "ok",
-   "added": 0
+   "added": 4
   },
   {
    "source": "RBI",
@@ -293,5 +367,5 @@
    "added": 0
   }
  ],
- "ai_calls": 2
+ "ai_calls": 5
 }
