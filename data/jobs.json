@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-04 07:27",
+ "updated": "2026-11-04 08:17",
  "count": 13,
  "vacs": [
   {
@@ -394,7 +394,7 @@
   },
   {
    "source": "IBPS",
-   "status": "ok",
+   "status": "page not readable (SSLError)",
    "added": 0
   },
   {
