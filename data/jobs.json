@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-04 19:42",
+ "updated": "2026-11-04 21:24",
  "count": 13,
  "vacs": [
   {
@@ -334,7 +334,7 @@
  "report": [
   {
    "source": "TNPSC",
-   "status": "ok",
+   "status": "page not readable (HTTPError)",
    "added": 0
   },
   {
@@ -374,7 +374,7 @@
   },
   {
    "source": "SSC",
-   "status": "ok",
+   "status": "page not readable (ConnectionError)",
    "added": 0
   },
   {
@@ -394,7 +394,7 @@
   },
   {
    "source": "IBPS",
-   "status": "page not readable (SSLError)",
+   "status": "ok",
    "added": 0
   },
   {
