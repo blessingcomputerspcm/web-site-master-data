@@ -1,39 +1,9 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-05 23:30",
- "count": 11,
+ "updated": "2026-11-06 00:25",
+ "count": 10,
  "vacs": [
-  {
-   "cat": "tn",
-   "siteId": "s1",
-   "org": "TNPSC",
-   "post": "Group 4 (CCSE-IV) – Junior Assistant, Typist, VAO, Tax Collector etc.",
-   "postTa": "குரூப் 4 – இளநிலை உதவியாளர், தட்டச்சர், VAO, வரி வசூலர்",
-   "total": "6574",
-   "start": "2026-10-06",
-   "last": "2026-11-05",
-   "qual": "SSLC (10th) minimum; Typist/Steno need typewriting/shorthand; VAO & some posts differ",
-   "age": "18+ (VAO/Forest 21+) as on 01-07-2026; upper limit & relaxation as per category",
-   "fee": "As per notification (OTR required)",
-   "docs": [
-    "Passport size photo (JPG) / புகைப்படம்",
-    "Signature (JPG) / கையொப்பம்",
-    "SSLC / HSC mark sheet / மதிப்பெண் சான்று",
-    "Degree certificate (if needed) / பட்டச் சான்று",
-    "Community certificate / சாதிச் சான்று",
-    "Aadhaar card / ஆதார் அட்டை",
-    "Mobile number & Email ID / மொபைல் & மின்னஞ்சல்",
-    "PSTM certificate (if claimed) / தமிழ் வழி கல்விச் சான்று",
-    "Disability certificate (if any) / மாற்றுத்திறனாளி சான்று"
-   ],
-   "notifyUrl": "https://www.tnpsc.gov.in",
-   "applyUrl": "https://apply.tnpscexams.in",
-   "note": "Exam: 10-01-2027. Correction window 09–11 Nov 2026.",
-   "source": "seed",
-   "added": "2026-10-15",
-   "id": "a1e424229ea"
-  },
   {
    "cat": "rail",
    "siteId": "s19",
@@ -306,7 +276,7 @@
   },
   {
    "source": "Kerala PSC",
-   "status": "ok",
+   "status": "page not readable (ConnectionError)",
    "added": 0
   },
   {
