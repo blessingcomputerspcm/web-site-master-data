@@ -1,39 +1,9 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-06 23:17",
- "count": 10,
+ "updated": "2026-11-07 00:20",
+ "count": 9,
  "vacs": [
-  {
-   "cat": "rail",
-   "siteId": "s19",
-   "org": "RRB",
-   "post": "NTPC Graduate (CEN 06/2026) – Goods Train Manager, Station / Ticket Supervisor, JAA, Senior Clerk",
-   "postTa": "NTPC பட்டதாரி – சரக்கு ரயில் மேலாளர், எழுத்தர் பணிகள்",
-   "total": "3548",
-   "start": "2026-10-08",
-   "last": "2026-11-06",
-   "qual": "Any Degree (Typing skill for Typist posts)",
-   "age": "As per CEN 06/2026",
-   "fee": "As per CEN (SC/ST/Women fee refund on attending CBT)",
-   "docs": [
-    "Passport size photo (JPG) / புகைப்படம்",
-    "Signature (JPG) / கையொப்பம்",
-    "SSLC / HSC mark sheet / மதிப்பெண் சான்று",
-    "Degree certificate (if needed) / பட்டச் சான்று",
-    "Community certificate / சாதிச் சான்று",
-    "Aadhaar card / ஆதார் அட்டை",
-    "Mobile number & Email ID / மொபைல் & மின்னஞ்சல்",
-    "SC/ST certificate for free travel / இலவச பயணச் சான்று",
-    "Bank account details (for fee refund) / வங்கி கணக்கு"
-   ],
-   "notifyUrl": "https://www.rrbchennai.gov.in",
-   "applyUrl": "https://www.rrbapply.gov.in",
-   "note": "Pay Level 5 & 6.",
-   "source": "seed",
-   "added": "2026-10-15",
-   "id": "a61c87f00a0"
-  },
   {
    "org": "SBI",
    "post": "Specialist Cadre Officers on Fixed Term Employment (CRPD/SCO/2026-27/30)",
@@ -306,12 +276,12 @@
   },
   {
    "source": "RRC Southern Railway",
-   "status": "ok",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   },
   {
    "source": "IBPS",
-   "status": "ok",
+   "status": "page not readable (SSLError)",
    "added": 0
   },
   {
