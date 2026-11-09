@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-09 14:37",
+ "updated": "2026-11-09 15:30",
  "count": 9,
  "vacs": [
   {
@@ -246,7 +246,7 @@
   },
   {
    "source": "Kerala PSC",
-   "status": "page not readable (ConnectionError)",
+   "status": "ok",
    "added": 0
   },
   {
