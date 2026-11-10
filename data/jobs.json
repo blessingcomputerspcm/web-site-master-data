@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-10 19:40",
+ "updated": "2026-11-10 20:30",
  "count": 8,
  "vacs": [
   {
@@ -216,7 +216,7 @@
   },
   {
    "source": "TN MRB",
-   "status": "ok",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   },
   {
@@ -261,7 +261,7 @@
   },
   {
    "source": "IBPS",
-   "status": "ok",
+   "status": "page not readable (SSLError)",
    "added": 0
   },
   {
