@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-12 04:20",
+ "updated": "2026-11-12 05:18",
  "count": 10,
  "vacs": [
   {
@@ -247,7 +247,7 @@
  "report": [
   {
    "source": "TNPSC",
-   "status": "page not readable (ReadTimeout)",
+   "status": "ok",
    "added": 0
   },
   {
@@ -272,7 +272,7 @@
   },
   {
    "source": "Kerala PSC",
-   "status": "ok",
+   "status": "page not readable (ConnectionError)",
    "added": 0
   },
   {
