@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-11 15:30",
- "count": 9,
+ "updated": "2026-11-11 16:28",
+ "count": 10,
  "vacs": [
   {
    "org": "IBPS",
@@ -198,6 +198,29 @@
    "id": "afc8278fe29"
   },
   {
+   "org": "JKB",
+   "post": "Recruitment of Various Posts",
+   "postTa": "பல்வேறு பணியிடங்கள் நேரடி நியமனம்",
+   "total": "Various",
+   "start": "2026-11-07",
+   "last": "2026-11-26",
+   "qual": "",
+   "age": "",
+   "fee": "",
+   "docs": [
+    "Photograph / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://ibpsreg.ibps.in/jkbvpocto26/",
+   "applyUrl": "https://ibpsreg.ibps.in/jkbvpocto26/",
+   "note": "Last date for printing application is 11/12/2026.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-11-11",
+   "id": "ad437745e44"
+  },
+  {
    "org": "BPCL",
    "post": "Special Recruitment Drive for Persons with Benchmark Disabilities (PwBDs)",
    "postTa": "மாற்றுத்திறனாளிகளுக்கான சிறப்பு ஆட்சேர்ப்பு இயக்கம் (PwBD)",
@@ -249,7 +272,7 @@
   },
   {
    "source": "Kerala PSC",
-   "status": "page not readable (ConnectionError)",
+   "status": "ok",
    "added": 0
   },
   {
@@ -303,5 +326,5 @@
    "added": 0
   }
  ],
- "ai_calls": 3
+ "ai_calls": 1
 }
