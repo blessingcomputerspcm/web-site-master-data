@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-13 15:30",
+ "updated": "2026-11-13 16:31",
  "count": 9,
  "vacs": [
   {
@@ -239,7 +239,7 @@
   },
   {
    "source": "TN MRB",
-   "status": "page not readable (ConnectTimeout)",
+   "status": "ok",
    "added": 0
   },
   {
@@ -249,7 +249,7 @@
   },
   {
    "source": "Kerala PSC",
-   "status": "page not readable (ConnectionError)",
+   "status": "ok",
    "added": 0
   },
   {
