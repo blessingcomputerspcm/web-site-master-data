@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-13 22:23",
- "count": 9,
+ "updated": "2026-11-13 23:20",
+ "count": 10,
  "vacs": [
   {
    "cat": "rail",
@@ -219,6 +219,29 @@
    "source": "auto-page",
    "added": "2026-11-11",
    "id": "ab394d6f497"
+  },
+  {
+   "org": "MANIT",
+   "post": "Group B & C Non-Teaching Positions",
+   "postTa": "குரூப் 'பி' & 'சி' கற்பித்தல் அல்லாத பணியிடங்கள்",
+   "total": "Various",
+   "start": "2026-11-13",
+   "last": "2026-12-10",
+   "qual": "Not mentioned in text",
+   "age": "Not mentioned in text",
+   "fee": "Not mentioned in text",
+   "docs": [
+    "Photograph / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://ibpsreg.ibps.in/manitboct26/",
+   "applyUrl": "https://ibpsreg.ibps.in/manitboct26/",
+   "note": "Last date for printing the submitted application is 25-Dec-2026.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-11-13",
+   "id": "a494b836899"
   }
  ],
  "report": [
@@ -269,7 +292,7 @@
   },
   {
    "source": "India Post GDS",
-   "status": "page not readable (HTTPError)",
+   "status": "ok",
    "added": 0
   },
   {
@@ -285,7 +308,7 @@
   {
    "source": "IBPS",
    "status": "ok",
-   "added": 0
+   "added": 1
   },
   {
    "source": "SBI Careers",
