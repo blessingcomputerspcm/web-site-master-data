@@ -1,7 +1,7 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-15 02:49",
+ "updated": "2026-11-15 07:14",
  "count": 9,
  "vacs": [
   {
@@ -247,7 +247,7 @@
   },
   {
    "source": "Karnataka PSC",
-   "status": "page not readable (ConnectionError)",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   },
   {
@@ -257,7 +257,7 @@
   },
   {
    "source": "SSC",
-   "status": "ok",
+   "status": "page not readable (ConnectTimeout)",
    "added": 0
   },
   {
