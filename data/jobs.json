@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-19 08:38",
- "count": 7,
+ "updated": "2026-11-19 17:07",
+ "count": 8,
  "vacs": [
   {
    "org": "SBI",
@@ -145,6 +145,29 @@
    "id": "ab394d6f497"
   },
   {
+   "org": "SBI",
+   "post": "Specialist Cadre Officer - GM & Head (CSTRA)",
+   "postTa": "ஸ்பெஷலிஸ்ட் கேடர் அதிகாரி - GM & Head (CSTRA)",
+   "total": "Not Mentioned",
+   "start": "2026-11-19",
+   "last": "2026-12-03",
+   "qual": "Refer official notification",
+   "age": "Refer official notification",
+   "fee": "Refer official notification",
+   "docs": [
+    "Passport size photo / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-36/apply",
+   "applyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-36/apply",
+   "note": "Engagement on Fixed Term Employment Basis (CRPD/SCO/2026-27/36).",
+   "cat": "bank",
+   "siteId": "s23",
+   "source": "auto-page",
+   "added": "2026-11-19",
+   "id": "a293adc2e75"
+  },
+  {
    "org": "MANIT",
    "post": "Group B & C Non-Teaching Positions",
    "postTa": "குரூப் 'பி' & 'சி' கற்பித்தல் அல்லாத பணியிடங்கள்",
@@ -196,7 +219,7 @@
   },
   {
    "source": "Kerala PSC",
-   "status": "ok",
+   "status": "page not readable (ConnectionError)",
    "added": 0
   },
   {
@@ -237,7 +260,7 @@
   {
    "source": "SBI Careers",
    "status": "ok",
-   "added": 0
+   "added": 1
   },
   {
    "source": "RBI",
@@ -250,5 +273,5 @@
    "added": 0
   }
  ],
- "ai_calls": 0
+ "ai_calls": 3
 }
