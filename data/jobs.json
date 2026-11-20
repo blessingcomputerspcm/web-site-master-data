@@ -1,8 +1,8 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-20 01:59",
- "count": 8,
+ "updated": "2026-11-20 07:48",
+ "count": 9,
  "vacs": [
   {
    "org": "SBI",
@@ -97,6 +97,29 @@
    "source": "auto-page",
    "added": "2026-11-03",
    "id": "afc8278fe29"
+  },
+  {
+   "org": "Indian Bank",
+   "post": "Engagement of Apprentices 2026-27",
+   "postTa": "தொழில்பழகுநர் பயிற்சி (Apprentices) 2026-27",
+   "total": "",
+   "start": "2026-11-05",
+   "last": "2026-11-25",
+   "qual": "",
+   "age": "",
+   "fee": "",
+   "docs": [
+    "Photograph / புகைப்படம்",
+    "Signature / கையொப்பம்"
+   ],
+   "notifyUrl": "https://ibpsreg.ibps.in/inbraoct26/",
+   "applyUrl": "https://ibpsreg.ibps.in/inbraoct26/",
+   "note": "Closure of registration and online fee payment is 25/11/2026.",
+   "cat": "bank",
+   "siteId": "s22",
+   "source": "auto-page",
+   "added": "2026-11-20",
+   "id": "a75d011c3b5"
   },
   {
    "org": "JKB",
@@ -254,12 +277,12 @@
   },
   {
    "source": "IBPS",
-   "status": "page not readable (SSLError)",
-   "added": 0
+   "status": "ok",
+   "added": 1
   },
   {
    "source": "SBI Careers",
-   "status": "page not readable (ReadTimeout)",
+   "status": "ok",
    "added": 0
   },
   {
@@ -273,5 +296,5 @@
    "added": 0
   }
  ],
- "ai_calls": 1
+ "ai_calls": 2
 }
