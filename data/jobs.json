@@ -1,29 +1,9 @@
 {
  "app": "WebSiteMaster",
  "version": 1,
- "updated": "2026-11-23 14:22",
- "count": 11,
+ "updated": "2026-11-24 02:40",
+ "count": 10,
  "vacs": [
-  {
-   "org": "SBI",
-   "post": "Specialist Cadre Officer (Risk Specialist)",
-   "postTa": "ஸ்பெஷலிஸ்ட் கேடர் அதிகாரி (ரிஸ்க் ஸ்பெஷலிஸ்ட்)",
-   "total": "Various",
-   "start": "2026-11-02",
-   "last": "2026-11-23",
-   "qual": "",
-   "age": "",
-   "fee": "",
-   "docs": [],
-   "notifyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-27/apply",
-   "applyUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-27/apply",
-   "note": "Advertisement No CRPD/SCO/2026-27/27",
-   "cat": "bank",
-   "siteId": "s23",
-   "source": "auto-page",
-   "added": "2026-11-03",
-   "id": "af2aa56c7ca"
-  },
   {
    "org": "SBI",
    "post": "Specialist Cadre Officer (Assistant Manager - Engineer (Fire))",
